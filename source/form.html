@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class ="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mishka</title>
+</head>
+<body class="page__body">
+  <header class ="page-header">
+    <a class="page-header__logo">
+      <img src="img\mishka-logo-mobile.svg.svg" alt="Мишка" width="85" height="35">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle-button" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="#">Каталог товаров</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Вязание на заказ</a>
+          </li>
+         </ul>
+         <div class="main-nav__list search-list">
+          <a  class= " search-list__search" href="#">
+            <svg class="search-list__search-icon" widht="16" height="16">
+            </svg>
+             Поиск по сайту
+          </a>
+         </div>
+         <div class="main-nav__list trash-list">
+          <a  class= " search-list__trash" href="#">
+            <svg class="search-list__trash-icon" widht="16" height="16">
+            </svg>
+             Корзина: пока пуста
+          </a>
+         </div>
+      </div>
+    </nav>
+    <main class="page-main">
+      <section class="form">
+        <div class="form__wrapper">
+          <h1 class="form__title">Вязание на заказ</h1>
+          <p class="form__text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+          <div class="form__type">
+            <form action="#">
+              <p class="user-type__text">Тип</p>
+                <label>
+                  <input type="radio" name="question-one" value="p" checked> Аксессуар для интерьера
+                </label>
+                <br>
+                <label>
+                  <input type="radio" name="question-one" value="b" >
+                  Детская игрушка
+                </label>
+            </form>
+          </div>
+          <div class="form__color">
+            <form action="#">
+              <p class="user-type__text">Цвет</p>
+              <label>
+                <input type="checkbox" id="user-color" value="white" checked>Белый
+              </label>
+              <label>
+                <input type="checkbox" id="user-color" value="gray" checked>Серый
+              </label>
+              <label>
+                <input type="checkbox" id="user-color" value="Tiffani">«Тиффани»
+              </label>
+              <label>
+                <input type="checkbox" id="user-color" value="black">Черный
+              </label>
+              <label>
+                <input type="checkbox" id="user-color" value="pink">Розовый</label>
+              <label>
+                <input type="checkbox" id="user-color" value="orange">Оранжевый
+              </label>
+            </form>
+          </div>
+          <div class="form__name">
+            <form action="#">
+              <p class="user-type__text">Фио</p>
+              <label for="name">Имя</label>
+              <input type="text" id="name" name="name" required placeholder="Введите ваше имя*">
+              <label for="lastname">Фамилия</label>
+              <input type="text" id="lastname" name="lastname" required placeholder="Укажите фамилию*">
+              <label for="midlename">Отчество</label>
+              <input type="text" id="midlename" name="midlename"placeholder="Отчество, если желаете">
+          </div>
+          <div class="form__phone">
+            <form action="#">
+              <p class="user-type__text">Тел</p>
+              <label for="tel"></label>
+              <input type="tel" name="tel"  required placeholder="+7 ХХХ ХХХ ХХ ХХ*">
+            </form>
+          </div>
+          <div class="form__email">
+            <form action="#">
+              <p class="user-type__text">E-MAIL</p>
+              <label for="e-mail"></label>
+              <input type="email" name="e-mail"  required placeholder="Ваш Email*">
+            </form>
+          </div>
+          <div class="form__additionally">
+            <form action="#">
+              <p class="user-type__text">ДОП</p>
+              <label for="e-mail"></label>
+              <textarea name="additionally" id="additionally" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+            </form>
+          </div>
+          <p class="form_text">*Поля обязательны для заполнения</p>
+          <a class="process__write button" href="#">Отправить заказ</a>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+            <div class="page-footer__social social">
+              <ul class="social__list">
+                <li class="social__item">
+                  <a class="social__link social__link-inst" href="#">Мы в Instagram</a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link social__link-fb" href="#">Мы в Фейсбуке</a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link social__link-twitter" href="#">Мы в твиттере</a>
+                </li>
+              </ul>
+            </div>
+            <div class="page-footer__copyright copyright">
+              <b class="copyright__text">Разработано</b>
+              <a class="copyright__link" href="#">Авдонин Данил</a>
+            </div>
+      </div>
+    </footer>
+</body>
